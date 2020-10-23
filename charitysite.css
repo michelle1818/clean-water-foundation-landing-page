@@ -1,0 +1,294 @@
+body {
+  font-family: "Lato";
+  font-size: 2.5vw;
+  text-align: center;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#body {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+#container {
+  min-height: 100%;
+  position: relative;
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h2 {
+  display: inline-block;
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+  text-align: center;
+}
+h4 {
+  display: inline-block;
+  text-align: center;
+}
+p {
+  text-align: left;
+  font-size: 2vw;
+}
+
+/* Photos */
+
+.bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.morganstanley.com/pub/content/dam/msdotcom/ideas/water-crisis/tw-water-crisis.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.thestatesman.com/wp-content/uploads/2019/06/O4-13.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#outer {
+  height: 100%;
+}
+
+/* Navigation Bar and Buttons */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f6f8b;
+  
+
+}
+
+li {
+  float: right;
+  margin-right: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #aaccee;
+}
+
+.button {
+  background-color: #bb2205;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+}
+
+.button:hover:not(.active) {
+  background-color: #cd122b;
+  color: white;
+}
+
+.button2 {
+  background-color: #bb2205;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  align-content: center;
+}
+
+.button2:hover:not(.active) {
+  background-color: #cd122b;
+  color: white;
+}
+
+.signupbutton {
+  background-color: #ececec;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 6px 8px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  align-content: center;
+}
+
+.signupbutton:hover:not(.active) {
+  background-color: #ffffff;
+  color: black;
+}
+
+.involvedbutton {
+  background-color: #34a6d7;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  align-content: center;
+}
+
+.involvedbutton:hover:not(.active) {
+  background-color: #3cb5e9;
+  color: black;
+}
+
+.impactbutton {
+  background-color: #228c22;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  align-content: center;
+}
+
+.impactbutton:hover:not(.active) {
+  background-color: #03ac13;
+  color: black;
+}
+
+/* Take Action */
+
+.row2 {
+  display: flex;
+  clear: both;
+}
+
+.column2 {
+  padding: 18px;
+  width: 33.33%;
+}
+
+/* Events and News */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 50px;
+  height: 65vw;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: #1f6f8b;
+  color: white;
+  text-align: center;
+  padding: 0.7rem;
+  z-index: 1;
+}
+
+input[type="text"],
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+.dropbtn {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vw;
+  align-content: center;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {
+  background-color: white;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980b9;
+}
